@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1AA084F9-B897-4147-A200-A8C8BA293FAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarksCard</RootNamespace>
+    <AssemblyName>MarksCard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="offlinemarks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\offlinemarks\offlinemarks\bin\Debug\offlinemarks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMarks.Designer.cs">
+      <DependentUpon>AddMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addstudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addstudent.Designer.cs">
+      <DependentUpon>Addstudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSubject.Designer.cs">
+      <DependentUpon>AddSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL.cs" />
+    <Compile Include="DispStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DispStudent.Designer.cs">
+      <DependentUpon>DispStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IPCon.cs" />
+    <Compile Include="IPCONFIG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPCONFIG.Designer.cs">
+      <DependentUpon>IPCONFIG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintMarks.Designer.cs">
+      <DependentUpon>PrintMarks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultSheet.Designer.cs">
+      <DependentUpon>ResultSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentList.Designer.cs">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCS.Designer.cs">
+      <DependentUpon>TCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStudent.Designer.cs">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VCDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCDataSet7.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMarks.resx">
+      <DependentUpon>AddMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addstudent.resx">
+      <DependentUpon>Addstudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSubject.resx">
+      <DependentUpon>AddSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispStudent.resx">
+      <DependentUpon>DispStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IPCONFIG.resx">
+      <DependentUpon>IPCONFIG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marksreport.rdlc" />
+    <EmbeddedResource Include="PrintMarks.resx">
+      <DependentUpon>PrintMarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResSht.rdlc" />
+    <EmbeddedResource Include="ResultSheet.resx">
+      <DependentUpon>ResultSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentList.resx">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TC.rdlc" />
+    <EmbeddedResource Include="TCS.resx">
+      <DependentUpon>TCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStudent.resx">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="VCDataSet.xsc">
+      <DependentUpon>VCDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VCDataSet.xss">
+      <DependentUpon>VCDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet1.xsc">
+      <DependentUpon>VCDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="VCDataSet1.xss">
+      <DependentUpon>VCDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet2.xsc">
+      <DependentUpon>VCDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VCDataSet2.xss">
+      <DependentUpon>VCDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet3.xsc">
+      <DependentUpon>VCDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="VCDataSet3.xss">
+      <DependentUpon>VCDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet4.xsc">
+      <DependentUpon>VCDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VCDataSet4.xss">
+      <DependentUpon>VCDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet5.xsc">
+      <DependentUpon>VCDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet5.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="VCDataSet5.xss">
+      <DependentUpon>VCDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet6.xsc">
+      <DependentUpon>VCDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VCDataSet6.xss">
+      <DependentUpon>VCDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet7.xsc">
+      <DependentUpon>VCDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="VCDataSet7.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VCDataSet7.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="VCDataSet7.xss">
+      <DependentUpon>VCDataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MARKS.jpg" />
+    <None Include="Resources\login_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

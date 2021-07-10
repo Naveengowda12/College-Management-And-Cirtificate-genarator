@@ -1,0 +1,10 @@
+D:\coll soft\MARKSSERVER\MARKSSERVER\bin\Debug\MARKSSERVER.exe
+D:\coll soft\MARKSSERVER\MARKSSERVER\bin\Debug\MARKSSERVER.pdb
+D:\coll soft\MARKSSERVER\MARKSSERVER\bin\Debug\offlinemarks.dll
+D:\coll soft\MARKSSERVER\MARKSSERVER\bin\Debug\offlinemarks.pdb
+D:\coll soft\MARKSSERVER\MARKSSERVER\obj\x86\Debug\MARKSSERVER.csprojResolveAssemblyReference.cache
+D:\coll soft\MARKSSERVER\MARKSSERVER\obj\x86\Debug\MARKSSERVER.Form1.resources
+D:\coll soft\MARKSSERVER\MARKSSERVER\obj\x86\Debug\MARKSSERVER.Properties.Resources.resources
+D:\coll soft\MARKSSERVER\MARKSSERVER\obj\x86\Debug\MARKSSERVER.csproj.GenerateResource.Cache
+D:\coll soft\MARKSSERVER\MARKSSERVER\obj\x86\Debug\MARKSSERVER.exe
+D:\coll soft\MARKSSERVER\MARKSSERVER\obj\x86\Debug\MARKSSERVER.pdb

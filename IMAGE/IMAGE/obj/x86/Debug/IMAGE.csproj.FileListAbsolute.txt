@@ -1,0 +1,12 @@
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.Form1.resources
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.Properties.Resources.resources
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.csproj.GenerateResource.Cache
+D:\coll soft\IMAGE\IMAGE\bin\Debug\IMAGE.exe
+D:\coll soft\IMAGE\IMAGE\bin\Debug\IMAGE.pdb
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.exe
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.pdb
+D:\coll soft\IMAGE\IMAGE\bin\Debug\IMAGE.exe.config
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\RdlCompile.cache
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\RdlCompile.compiled
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.csprojResolveAssemblyReference.cache
+D:\coll soft\IMAGE\IMAGE\obj\x86\Debug\IMAGE.Form2.resources

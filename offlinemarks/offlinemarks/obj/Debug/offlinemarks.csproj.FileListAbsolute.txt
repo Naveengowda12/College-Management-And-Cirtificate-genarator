@@ -1,0 +1,5 @@
+D:\coll soft\offlinemarks\offlinemarks\bin\Debug\offlinemarks.dll
+D:\coll soft\offlinemarks\offlinemarks\bin\Debug\offlinemarks.pdb
+D:\coll soft\offlinemarks\offlinemarks\obj\Debug\offlinemarks.csprojResolveAssemblyReference.cache
+D:\coll soft\offlinemarks\offlinemarks\obj\Debug\offlinemarks.dll
+D:\coll soft\offlinemarks\offlinemarks\obj\Debug\offlinemarks.pdb
